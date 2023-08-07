@@ -321,6 +321,19 @@ button:hover {
     display: block;
 }
 
+.icons-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+}
+
+.icons-section img{
+    height: 40px;
+}
+
 /* Footer */
 
 .footer-section {
@@ -356,7 +369,20 @@ button:hover {
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 
     .main-content {
-        margin: 0px 10%;
+        margin: 0px 5%;
+    }
+
+    .icons-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 30px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+    }
+    
+    .icons-section img{
+        height: 30px;
     }
 
     /* Footer */
@@ -390,6 +416,7 @@ button:hover {
     .footer-link-box li {
         padding: 5px 0px;
     }
+
 }
 
 /* Mobile */
@@ -397,6 +424,23 @@ button:hover {
 
     .main-content {
         margin: 0px 5%;
+    }
+
+    .space{
+        margin-top: 100px;
+    }
+
+    .icons-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 15px;
+        background-color: rgb(243, 243, 243);
+        border-radius: 10px;
+    }
+    
+    .icons-section img{
+        height: 20px;
     }
 
     /* Footer */
