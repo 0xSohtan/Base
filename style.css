@@ -334,6 +334,41 @@ button:hover {
     height: 40px;
 }
 
+.text-content-heading{
+    font-family: Circular-Black;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.text-content-paragraph{
+    font-family: Circular-Light;
+}
+
+.text-item{
+    margin-top: 50px;
+}
+
+.text-content-space{
+    margin-top: 30px;
+}
+
+.customer-reviews-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.customer-reviews-heading{
+    text-align: start;
+}
+
+.customer-reviews-item{
+    width: 30%;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
 /* Footer */
 
 .footer-section {
@@ -383,6 +418,39 @@ button:hover {
     
     .icons-section img{
         height: 30px;
+    }
+
+    .faq {
+        cursor: pointer;
+        margin-bottom: 20px;
+        padding: 20px 20px;
+        border-radius: 10px;
+        background-color: rgb(243, 243, 243);
+    }
+    
+    .faq-wrapper {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .question {
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .answer {
+        margin-top: 20px;
+        font-size: 18px;
+        display: none;
+    }
+    
+    .show {
+        display: block;
     }
 
     /* Footer */
@@ -441,6 +509,39 @@ button:hover {
     
     .icons-section img{
         height: 20px;
+    }
+
+    .faq {
+        cursor: pointer;
+        margin-bottom: 20px;
+        padding: 20px 20px;
+        border-radius: 10px;
+        background-color: rgb(243, 243, 243);
+    }
+    
+    .faq-wrapper {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .question {
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .answer {
+        margin-top: 20px;
+        font-size: 13px;
+        display: none;
+    }
+    
+    .show {
+        display: block;
     }
 
     /* Footer */
