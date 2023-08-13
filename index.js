@@ -1,5 +1,3 @@
-console.log("Made by Sohtan");
-
 const questions = document.querySelectorAll('.question');
 
 questions.forEach((question) => {
